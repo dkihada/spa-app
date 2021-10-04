@@ -13,7 +13,10 @@ function Home() {
   }, []);
 
   return (
-    <>{!catalog.length ? <Preloader /> : <CategoryList catalog={catalog} />}</>
+    <>
+      <h2>Category</h2>
+      {!catalog.length ? <Preloader /> : <CategoryList catalog={catalog} />}
+    </>
   );
 }
 
