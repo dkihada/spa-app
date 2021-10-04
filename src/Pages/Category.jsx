@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import { getFilteredCategory } from '../API';
 import { MealList } from '../components/Meals/MealList';
 import { Preloader } from '../components/Preloader/Preloader';
@@ -7,8 +7,7 @@ import { Preloader } from '../components/Preloader/Preloader';
 function Category() {
   const { name } = useParams();
   const [meals, setMeals] = useState([]);
-
-  console.log(useParams());
+  const { goBack } = useHistory();
 
   useEffect(() => {
     getFilteredCategory(name).then((data) => setMeals(data.meals));
@@ -16,9 +15,23 @@ function Category() {
 
   return (
     <>
-      <h2>{name}</h2>
+      <div className='ui grid container'>
+        <div onClick={goBack} className='ui animated button left floated'>
+          <div className='visible content'>Go Back</div>
+          <div className='hidden content'>
+            <i className='left arrow icon'></i>
+          </div>
+        </div>
+      </div>
 
-      {!meals.length ? <Preloader /> : <MealList meals={meals} />}
+      {!meals.length ? (
+        <Preloader />
+      ) : (
+        <>
+          <h2>{name}</h2>
+          <MealList meals={meals} />
+        </>
+      )}
     </>
   );
 }
