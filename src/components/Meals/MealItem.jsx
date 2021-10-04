@@ -10,7 +10,7 @@ function MealItem(props) {
           <img src={img} alt={name} />
         </div>
         <div className='content content-item'>
-          <Link to={`/category/${name}`} className='header'>
+          <Link to={`/meal/${idMeal}`} className='header'>
             {name}
           </Link>
         </div>
