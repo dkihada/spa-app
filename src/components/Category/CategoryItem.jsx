@@ -14,15 +14,19 @@ function CategoryItem(props) {
           <img src={img} alt={name} />
         </div>
         <div className='content'>
-          <Link to={`/category/${idCategory}`} className='header'>
+          <Link to={`/category/${name}`} className='header'>
             {name}
           </Link>
           <div className='description'>{descr.slice(0, 60)}...</div>
         </div>
         <div className='extra content'>
-          <Link to={`/category/${idCategory}`}>
-            <i className='search icon'></i>
-            Watch category
+          <Link to={`/category/${name}`}>
+            <div className='ui animated button'>
+              <div className='visible content'>Watch category</div>
+              <div className='hidden content'>
+                <i className='right arrow icon'></i>
+              </div>
+            </div>
           </Link>
         </div>
       </div>
