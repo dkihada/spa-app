@@ -14,7 +14,11 @@ function Header() {
         Contacts
       </Link>
       <div className='right menu'>
-        <a href='!#' className='item'>
+        <a
+          href='https://github.com/dkihada/spa-react-food'
+          target='_blank'
+          className='item'
+        >
           REPO
         </a>
       </div>
