@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div class='ui inverted vertical footer segment form-page'>
-      <div class='ui container'>SPA React Project Portfolio</div>
+    <div className='ui inverted vertical footer segment form-page'>
+      <div className='ui container'>SPA React Project Portfolio</div>
     </div>
   );
 }
