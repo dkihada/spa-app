@@ -14,13 +14,9 @@ function Header() {
         Contacts
       </Link>
       <div className='right menu'>
-        <div className='item'>
-          <div className='ui icon input'>
-            <input type='text' placeholder='Search...' />
-            <i className='search link icon'></i>
-          </div>
-        </div>
-        <a className='item'>REPO</a>
+        <a href='!#' className='item'>
+          REPO
+        </a>
       </div>
     </div>
   );
