@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/spa-react-food/static/css/main.dcf2abfd.chunk.css",
+    "main.js": "/spa-react-food/static/js/main.4e7130f0.chunk.js",
+    "main.js.map": "/spa-react-food/static/js/main.4e7130f0.chunk.js.map",
+    "runtime-main.js": "/spa-react-food/static/js/runtime-main.55122930.js",
+    "runtime-main.js.map": "/spa-react-food/static/js/runtime-main.55122930.js.map",
+    "static/css/2.18183807.chunk.css": "/spa-react-food/static/css/2.18183807.chunk.css",
+    "static/js/2.b668e236.chunk.js": "/spa-react-food/static/js/2.b668e236.chunk.js",
+    "static/js/2.b668e236.chunk.js.map": "/spa-react-food/static/js/2.b668e236.chunk.js.map",
+    "index.html": "/spa-react-food/index.html",
+    "static/css/2.18183807.chunk.css.map": "/spa-react-food/static/css/2.18183807.chunk.css.map",
+    "static/css/main.dcf2abfd.chunk.css.map": "/spa-react-food/static/css/main.dcf2abfd.chunk.css.map",
+    "static/js/2.b668e236.chunk.js.LICENSE.txt": "/spa-react-food/static/js/2.b668e236.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/spa-react-food/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55122930.js",
+    "static/css/2.18183807.chunk.css",
+    "static/js/2.b668e236.chunk.js",
+    "static/css/main.dcf2abfd.chunk.css",
+    "static/js/main.4e7130f0.chunk.js"
+  ]
+}
